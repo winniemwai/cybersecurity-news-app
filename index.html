@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cybersecurity News</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body>
-    <h1>hello world</h1>
+  <body class="dark-mode">
+    <header>
+      <h1>🕵🏽‍♀️ Cybercrime News Feed</h1>
+      <button id="toggle-theme">🌗 Toggle Theme</button>
+    </header>
+
+    <section class="search-section">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search for cyber keywords..."
+      />
+      <button id="search-btn">Search</button>
+    </section>
+
+    <div id="loader" class="loader hidden"></div>
+
+    <main id="news-container">Loading...</main>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
