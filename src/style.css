@@ -41,12 +41,14 @@ body.light-mode {
 /* News Item Card */
 .news-item {
   flex: 1 1 300px;
+  backdrop-filter: blur(10px);
   max-width: 400px;
   padding: 15px;
   border-radius: 10px;
-  background-color: #1e1e1e;
-  border: 1px solid #333;
-  transition: transform 0.2s;
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out, background-color 0.3s;
   box-sizing: border-box;
 }
 
