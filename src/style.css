@@ -1,3 +1,17 @@
+:root {
+  --bg-light: #fefefe;
+  --text-light: #111;
+  --card-light: #f5f5f5;
+  --border-light: #ccc;
+
+  --bg-dark: #121212;
+  --text-dark: #f1f1f1;
+  --card-dark: #1e1e1e;
+  --border-dark: #333;
+
+  --accent: #00ccff;
+}
+
 /* General Styling */
 body {
   margin: 0;
